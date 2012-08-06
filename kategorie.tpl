@@ -130,7 +130,7 @@
                     <a href="{$SHOP_URL}{$path}{if $smarty.get.sort}sortierung--{$smarty.get.sort}/{/if}{if $smarty.get.filter}{$smarty.get.filter}/{/if}seite-{$pages_count}-{$articles_per_page}/" title="Letzte Seite"></a>
                 {else}
                     <a title="Nächste Seite"></a>
-                    <a title="Letzte Site"></a>
+                    <a title="Letzte Seite"></a>
                 {/if}
             {/strip}
             {/capture}
